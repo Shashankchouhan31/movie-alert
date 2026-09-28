@@ -13,19 +13,19 @@ MOVIES = [
     {
         "name": "Doremon (BookMyShow)",
         "url": "https://in.bookmyshow.com/movies/hyderabad/doraemon-castle-of-the-undersea-devil/ET00507337",
-        "live_keywords": ["book tickets"],
+        "live_keywords": ["Book tickets"],
         "required_text": [],
     },
     {
         "name": "Avengers Doomsday (BookMyShow)",
         "url": "https://in.bookmyshow.com/movies/hyderabad/avengers-doomsday/ET00439706",
-        "live_keywords": ["book now"],
+        "live_keywords": ["Book tickets"],
         "required_text": ["imax"],
     },
     {
        "name": "Dune Part 3 (BookMyShow)",
         "url": "https://in.bookmyshow.com/movies/hyderabad/dune-part-three/ET00491771",
-        "live_keywords": ["book now"],
+        "live_keywords": ["Book tickets"],
         "required_text": ["imax"],
     },
 ]

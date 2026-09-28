@@ -20,7 +20,7 @@ MOVIES = [
         "name": "Avengers Doomsday (BookMyShow)",
         "url": "https://in.bookmyshow.com/movies/hyderabad/avengers-doomsday/ET00439706",
         "live_keywords": ["book now"],
-        "required_text": ["movies"],
+        "required_text": ["imax"],
     },
     {
        "name": "Dune Part 3 (BookMyShow)",

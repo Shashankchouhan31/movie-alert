@@ -65,6 +65,10 @@ def is_live(page, movie):
     page.wait_for_timeout(5000)
     text = page.inner_text("body").lower()
 
+    print("PAGE TITLE:", page.title())
+    print("TEXT LENGTH:", len(text))
+    print("TEXT START:", text[:200].replace("\n", " "))
+
     if not any(k.lower() in text for k in movie["live_keywords"]):
         return False
     return all(r.lower() in text for r in movie["required_text"])
